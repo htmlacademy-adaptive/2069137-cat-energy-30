@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Название проекта</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicons/apple-180.png">
+    <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/index.js" defer></script>
   </head>
@@ -38,7 +42,11 @@
           <h2 class="catalog__title">Каталог продукции</h2>
           <ul class="catalog__list">
             <li class="catalog__item catalog-card">
-              <img class="catalog-card__image" src="#" alt="#">
+              <picture>
+                <source width="161" height="172" type="image/png" media="(min-width: 1440px)" srcset="images/cat-energy-pro-500-chicken-desktop@1x.png 1x, images/cat-energy-pro-500-chicken-desktop@2x.png 2x">
+                <source  width="161" height="172" type="image/png" media="(min-width: 768px)" srcset="images/cat-energy-pro-500-chicken-tablet@1x.png 1x, images/cat-energy-pro-500-chicken-tablet@2x.png 2x">
+                <img class="catalog-card__image" width="68" height="86" src="images/cat-energy-pro-500-chicken-mobile@1x.png" srcset="images/cat-energy-pro-500-chicken-mobile@2x.png 2x" alt="Cat Energy PRO 500 грамм.">
+              </picture>
               <h3 class="catalog-card__title">Cat Energy PRO 500 г</h3>
               <table class="catalog-card__description card-desc">
                 <tr class="card-desc__row">
@@ -57,7 +65,11 @@
               <button class="catalog-card__button catalog-button" type="button">заказать</button>
             </li>
             <li class="catalog__item catalog-card">
-              <img class="catalog-card__image" src="#" alt="#">
+              <picture>
+                <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="images/cat-energy-pro-1000-chicken-desktop@1x.png 1x, images/cat-energy-pro-1000-chicken-desktop@2x.png 2x">
+                <source width="168" height="206" type="image/png" media="(min-width: 768px)" srcset="images/cat-energy-pro-1000-chicken-tablet@1x.png 1x, images/cat-energy-pro-1000-chicken-tablet@2x.png 2x">
+                <img class="catalog-card__image" width="84" height="100" src="images/cat-energy-pro-1000-chicken-mobile@1x.png" srcset="images/cat-energy-pro-1000-chicken-mobile@2x.png" alt="Cat Energy PRO 1000 грамм.">
+              </picture>
               <h3 class="catalog-card__title">Cat Energy PRO 1000 г</h3>
               <table class="catalog-card__description card-desc">
                 <tr class="card-desc__row">
@@ -76,7 +88,11 @@
               <button class="catalog-card__button catalog-button" type="button">заказать</button>
             </li>
             <li class="catalog__item catalog-card">
-              <img class="catalog-card__image" src="#" alt="#">
+              <picture>
+                <source width="163" height="174" type="image/png" media="(min-width: 1440px)" srcset="images/cat-energy-pro-500-fish-desktop@1x.png 1x, images/cat-energy-pro-500-fish-desktop@2x.png 2x"></sourcewidth>
+                <source width="163" height="174" type="image/png" media="(min-width: 768px)" srcset="images/cat-energy-pro-500-fish-tablet@1x.png 1x, images/cat-energy-pro-500-fish-tablet@2x.png 2x">
+                <img class="catalog-card__image" width="68" height="78" src="images/cat-energy-pro-500-fish-mobile@1x.png" srcset="images/cat-energy-pro-500-fish-mobile@2x.png 2x" alt="Cat Energy PRO 500 грамм.">
+              </picture>
               <h3 class="catalog-card__title">Cat Energy PRO 500 г</h3>
               <table class="catalog-card__description card-desc">
                 <tr class="card-desc__row">
@@ -95,7 +111,11 @@
               <button class="catalog-card__button catalog-button" type="button">заказать</button>
             </li>
             <li class="catalog__item catalog-card">
-              <img class="catalog-card__image" src="#" alt="#">
+              <picture>
+                <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="images/cat-energy-pro-1000-fish-desktop@1x.png 1x, images/cat-energy-pro-1000-fish-desktop@2x.png 2x">
+                <source width="168" height="200" type="image/png" media="(min-width: 768px)" srcset="images/cat-energy-pro-1000-fish-tablet@1x.png 1x, images/cat-energy-pro-1000-fish-tablet@2x.png 2x">
+                <img class="catalog-card__image" width="84" height="100" src="images/cat-energy-pro-1000-fish-mobile@1x.png" srcset="images/cat-energy-pro-1000-fish-mobile@2x.png 2x" alt="Cat Energy PRO 1000 грамм.">
+              </picture>
               <h3 class="catalog-card__title">Cat Energy PRO 1000 г</h3>
               <table class="catalog-card__description card-desc">
                 <tr class="card-desc__row">
@@ -114,7 +134,11 @@
               <button class="catalog-card__button catalog-button" type="button">заказать</button>
             </li>
             <li class="catalog__item catalog-card">
-              <img class="catalog-card__image" src="#" alt="#">
+              <picture>
+                <source width="161" height="171" type="image/png" media="(min-width: 1440px)" srcset="images/cat-energy-slim-500-grechka-desktop@1x.png 1x, images/cat-energy-slim-500-grechka-desktop@2x.png 2x">
+                <source width="161" height="171" type="image/png" media="(min-width: 768px)" srcset="images/cat-energy-slim-500-grechka-tablet@1x.png 1x, images/cat-energy-slim-500-grechka-tablet@2x.png 2x">
+                <img class="catalog-card__image" width="68" height="78" src="images/cat-energy-slim-500-grechka-mobile@1x.png" srcset="images/cat-energy-slim-500-grechka-mobile@2x.png 2x" alt="Cat Energy SLIM 500 грамм.">
+              </picture>
               <h3 class="catalog-card__title">Cat Energy SLIM 500 г</h3>
               <table class="catalog-card__description card-desc">
                 <tr class="card-desc__row">
@@ -133,7 +157,11 @@
               <button class="catalog-card__button catalog-button" type="button">заказать</button>
             </li>
             <li class="catalog__item catalog-card">
-              <img class="catalog-card__image" src="#" alt="#">
+              <picture>
+                <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="images/cat-energy-slim-1000-grechka-desktop@1x.png 1x, images/cat-energy-slim-1000-grechka-desktop@2x.png 2x">
+                <source width="168" height="200" type="image/png" media="(min-width: 768px)" srcset="images/cat-energy-slim-1000-grechka-tablet@1x.png 1x, images/cat-energy-slim-1000-grechka-tablet@2x.png 2x">
+                <img class="catalog-card__image" width="84" height="100" src="images/cat-energy-slim-1000-grechka-mobile@1x.png" srcset="images/cat-energy-slim-1000-grechka-mobile@2x.png 2x" alt="Cat Energy SLIM 1000 грамм.">
+              </picture>
               <h3 class="catalog-card__title">Cat Energy SLIM 1000 г</h3>
               <table class="catalog-card__description card-desc">
                 <tr class="card-desc__row">
@@ -152,7 +180,11 @@
               <button class="catalog-card__button catalog-button" type="button">заказать</button>
             </li>
             <li class="catalog__item catalog-card">
-              <img class="catalog-card__image" src="#" alt="#">
+              <picture>
+                <source width="163" height="174" type="image/png" media="(min-width: 1440px)" srcset="images/cat-energy-slim-500-rice-desktop@1x.png 1x, images/cat-energy-slim-500-rice-desktop@2x.png 2x">
+                <source width="163" height="174" type="image/png" media="(min-width: 768px)" srcset="images/cat-energy-slim-500-rice-tablet@1x.png 1x, images/cat-energy-slim-500-rice-tablet@2x.png 2x">
+                <img class="catalog-card__image" width="72" height="84" src="images/cat-energy-slim-500-rice-mobile@1x.png" srcset="images/cat-energy-slim-500-rice-mobile@2x.png 2x" alt="#">
+              </picture>
               <h3 class="catalog-card__title">Cat Energy SLIM 500 г</h3>
               <table class="catalog-card__description card-desc">
                 <tr class="card-desc__row">
@@ -171,7 +203,6 @@
               <button class="catalog-card__button catalog-button" type="button">заказать</button>
             </li>
             <li class="catalog__item catalog-card catalog__item--others">
-              <img class="catalog-card__image" src="#" alt="#">
               <h3 class="catalog-card__title">Показать еще 100500 товаров</h3>
               <p class="catalog-card__description">На самом деле вкусов гораздо больше!</p>
               <button class="catalog-card__button" type="button">показать все</button>
@@ -221,7 +252,11 @@
           <span class="contacts__item">Санкт-Петербург</span>
         </address>
         <div class="contacts__map map">
-          <img class="map__image" src="#" alt="Карта нашего расположения.">
+          <picture>
+            <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x">
+            <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
+            <img class="map__image" width="320" height="362" src="images/map-mobile@1x.png" srcset="source/images/map-mobile@2x.png 2x" alt="Карта нашего расположения.">
+          </picture>
           <img class="map__location" src="#" alt="Указатель на наше местоположение.">
         </div>
       </section>

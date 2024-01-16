@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Название проекта</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicons/apple-180.png">
+    <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/index.js" defer></script>
   </head>
@@ -36,7 +40,11 @@
         <h1 class="promo__title">Функциональное питание для котов</h1>
         <p class="promo__slogan">Занялся собой? Займись котом!</p>
         <button class="promo__program-select-button">подобрать программу</button>
-        <img class="promo__image" src="#" alt="Питание Cat energy pro с курицей.">
+        <picture>
+          <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/index-can-desktop@1x.png 1x, images/index-can-desktop@2x.png 2x">
+          <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/index-can-tablet@1x.png 1x, images/index-can-tablet@2x.png 2x">
+          <img class="promo__image" src="images/index-can-mobile@1x.png" srcset="images/index-can-mobile@2x.png 2x" width="280" height="270" alt="Питание Cat energy pro с курицей.">
+        </picture>
       </section>
       <section class="main__services services">
         <h2 class="visually-hidden">Каталоги с товарами</h2>
@@ -78,8 +86,15 @@
           <span class="example__costs-value">15 000 РУБ.</span>
         </p>
         <div class="example__slider slider">
-          <img class="slider__image-before" src="#" alt="Кот до похудения.">
-          <img class="slider__image-after" src="#" alt="Кот после похудения.">
+          <picture>
+            <source width="280" height="512" type="image/png" media="(min-width:1440px)" srcset="images/cat-before-desktop@1x.png 1x, images/cat-before-desktop@2x.png 2x">
+            <source width="280" height="512" type="image/png" media="(min-width:768px)" srcset="images/cat-before-tablet@1x.png 1x, images/cat-before-tablet@2x.png 2x">
+            <img class="slider__image-before" src="images/cat-before-mobile@1x.png" srcset="images/cat-before-mobile@2x.png 2x" width="140" height="256" alt="Кот до похудения.">
+          </picture>
+          <picture>
+            <source width="280" height="512" type="image/png" media="(min-width:768px)" srcset="images/cat-after-tablet@1x.png 1x, images/cat-after-tablet@2x.png 2x">
+            <img class="slider__image-after" src="images/cat-after-mobile@1x.png" srcset="images/cat-after-mobile@2x.png 2x" alt="Кот после похудения.">
+          </picture>
           <div class="slider__control">
             <button class="slider__button"></button>
           </div>
@@ -93,7 +108,11 @@
           <span class="contacts__item">Санкт-Петербург</span>
         </address>
         <div class="contacts__map map">
-          <img class="map__image" src="#" alt="Карта нашего расположения.">
+          <picture>
+            <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x">
+            <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
+            <img class="map__image" width="320" height="362" src="images/map-mobile@1x.png" srcset="source/images/map-mobile@2x.png 2x" alt="Карта нашего расположения.">
+          </picture>
           <img class="map__location" src="#" alt="Указатель на наше местоположение.">
         </div>
       </section>

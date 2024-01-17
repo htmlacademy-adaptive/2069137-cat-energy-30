@@ -1,5 +1,6 @@
 .header {
-  background-color: #663399;
+  $header-col: darkorange;
+  background-color: $header-col;
   color: #ffffff;
   padding: 10px 15px;
 }

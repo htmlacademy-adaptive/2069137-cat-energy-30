@@ -17,10 +17,10 @@
       <div class="header__wrapper">
         <nav class="header__nav navigation">
           <a class="header__logo logo" href="#">
-            <img class="logo__image" src="#" alt="Логотип.">
-            <img class="logo__text" src="#" alt="Надпись Cat Energy.">
+            <img class="logo__image" width="33" height="38" src="#" alt="Логотип.">
+            <img class="logo__text" width="101" height="18" src="#" alt="Надпись Cat Energy.">
           </a>
-          <button class="navigation__button-menu"><span class="visually-hidden">Кнопка открытия меню</span></button>
+          <button class="navigation__button-menu" type="button"><span class="visually-hidden">Кнопка открытия меню</span></button>
           <ul class="navigation__list nav-list">
             <li class="nav-list__item">
               <a href="index.html">Главная</a>
@@ -45,17 +45,19 @@
 
           <form class="food-plan__form cats-data" action="https://echo.htmlacademy.ru" method="post">
             <fieldset class="cats-data__personal">
+              <legend class="visually-hidden">personal cat's</legend>
               <label class="cats-data__label">ИМЯ:*
-                <input class="cats-data__input" type="text" placeholder="БАРСИК" required>
+                <input class="cats-data__input" type="text" name="cats-name" placeholder="БАРСИК" required>
               </label>
               <label class="cats-data__label">Вес (кг):*
-                <input class="cats-data__input" type="number" placeholder="7" required>
+                <input class="cats-data__input" type="number" name="cats-weight" placeholder="7" required>
               </label>
               <label class="cats-data__label">Возраст (лет):
-                <input class="cats-data__input" type="number" placeholder="7">
+                <input class="cats-data__input" type="number" name="cats-age" placeholder="7">
               </label>
             </fieldset>
             <fieldset class="cats-wishes">
+              <legend class="visually-hidden">Cat's wishes</legend>
               <ul class="cats-wishes__list">
                 <li class="cats-wishes__item">
                   <label class="cats-wishes__label">
@@ -77,10 +79,10 @@
             <fieldset class="owner-contacts">
               <legend class="owner-contacts__title">Контактные данные (владельца кота)</legend>
               <label class="owner-contacts__label">E-mail:*
-                <input class="owner-contacts__input" type="email" placeholder="kuklachev@gmail.com" required>
+                <input class="owner-contacts__input" type="email" name="email" placeholder="kuklachev@gmail.com" required>
               </label>
               <label class="owner-contacts__label">Телефон:*
-                <input class="owner-contacts__input" type="tel" placeholder="8 (960) 900-60-90" required>
+                <input class="owner-contacts__input" type="tel" name="tel" placeholder="8 (960) 900-60-90" required>
               </label>
             </fieldset>
             <fieldset class="your-comments">
@@ -88,23 +90,24 @@
               <textarea name="your-comments__textarea" id="your-comment" cols="30" rows="10" placeholder="Расскажите обо всех повАдках кота"></textarea>
             </fieldset>
             <fieldset class="other-wishes">
+              <legend class="visually-hidden">Other odds</legend>
               <ul class="other-wishes__list">
-                <li class="other-wisher__item">
+                <li class="other-wishes__item">
                   <label>
                     <input type="checkbox" name="сахарозаменитель" checked>сахарозаменитель
                   </label>
                 </li>
-                <li class="other-wisher__item">
+                <li class="other-wishes__item">
                   <label>
                     <input type="checkbox" name="питьевая вода">питьевая вода
                   </label>
                 </li>
-                <li class="other-wisher__item">
+                <li class="other-wishes__item">
                   <label>
                     <input type="checkbox" name="молоко">молоко
                   </label>
                 </li>
-                <li class="other-wisher__item">
+                <li class="other-wishes__item">
                   <label>
                     <input type="checkbox" name="витамины">витамины
                   </label>
@@ -129,14 +132,14 @@
             <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
             <img class="map__image" width="320" height="362" src="images/map-mobile@1x.png" srcset="source/images/map-mobile@2x.png 2x" alt="Карта нашего расположения.">
           </picture>
-          <img class="map__location" src="#" alt="Указатель на наше местоположение.">
+          <img class="map__location" width="57" height="53" src="#" alt="Указатель на наше местоположение.">
         </div>
       </section>
     </main>
 
     <footer class="footer">
       <div class="footer__wrapper">
-        <img class="footer__logo" src="#" alt="Логотип Cat energy.">
+        <img class="footer__logo" width="128" height="24" src="#" alt="Логотип Cat energy.">
         <ul class="footer__list socials">
           <li class="socials__item"><a href="#"><span class="visually-hidden">VK</span></a></li>
           <li class="socials__item"><a href="#"><span class="visually-hidden">YouTube</span></a></li>
@@ -144,7 +147,7 @@
         </ul>
         <a class="footer__htmlAcademyLogo htmlAcademy" href="#">
           <span class="htmlAcademy__name">HTML Academy</span>
-          <img class="htmlAcademy__logo" src="#" alt="Логотип HTML Academy.">
+          <img class="htmlAcademy__logo" width="27" height="34" src="#" alt="Логотип HTML Academy.">
         </a>
       </div>
     </footer>

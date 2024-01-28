@@ -1,0 +1,18 @@
+.promo {
+  background-image: url("../../images/index-background-desktop@1x.jpg");
+  background-repeat: no-repeat;
+  background-color: $basic-green;
+  opacity: 0.85;
+  color: $white;
+}
+
+.promo__title {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.promo__slogan {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}

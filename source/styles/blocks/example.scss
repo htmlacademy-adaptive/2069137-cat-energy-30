@@ -12,7 +12,8 @@
   @include Lato-style (14px, 18px);
 }
 
-.example__weight, .example__time {
+.example__weight,
+.example__time {
   @include Lato-style (12px, 12px);
 }
 

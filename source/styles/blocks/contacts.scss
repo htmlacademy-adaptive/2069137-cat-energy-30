@@ -1,4 +1,5 @@
-.contacts--form, .contacts--catalog {
+.contacts--form,
+.contacts--catalog {
   background-color: $basic-grey;
 }
 
@@ -11,7 +12,8 @@
 }
 
 .contacts__address {
-  @include Lato-style (14px, 20px);
+  @include Lato-style (14px,
+  20px);
   line-height: 20px;
   font-style: normal;
 }

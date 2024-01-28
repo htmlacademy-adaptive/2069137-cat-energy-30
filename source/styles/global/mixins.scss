@@ -7,3 +7,10 @@
     src: $font-src;
   }
 }
+
+@mixin Lato-style ($font-size, $line-height) {
+  font-family: "Lato", sans-serif;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: $font-grey;
+}

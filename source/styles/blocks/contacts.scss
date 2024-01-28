@@ -1,3 +1,17 @@
-.contacts--form {
+.contacts--form, .contacts--catalog {
   background-color: $basic-grey;
+}
+
+.contacts__invite {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $special-black;
+  text-transform: uppercase;
+}
+
+.contacts__address {
+  @include Lato-style (14px, 20px);
+  line-height: 20px;
+  font-style: normal;
 }

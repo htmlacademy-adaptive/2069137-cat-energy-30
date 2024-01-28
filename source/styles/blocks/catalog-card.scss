@@ -1,0 +1,21 @@
+.catalog-card__title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $catalog-black;
+  text-transform: uppercase;
+}
+
+.catalog-card__description {
+  @include Lato-style (12px, 16px);
+}
+
+.catalog-card__button--showall {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: $font-grey;
+  text-transform: uppercase;
+  background-color: $basic-grey;
+  border: none;
+}

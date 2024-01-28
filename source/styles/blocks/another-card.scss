@@ -1,0 +1,23 @@
+.another-card__title {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: $catalog-black;
+  text-transform: uppercase;
+}
+
+.another-card__content {
+  @include Lato-style (14px, 14px);
+}
+
+.another-catalog__gift-block {
+  background-image: url("../../images/catalog-more-background-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-color: $basic-green;
+  opacity: 0.85;
+}
+
+
+.another-catalog__gift {
+  @include Lato-style (16px, 20px);
+}

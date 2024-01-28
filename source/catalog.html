@@ -22,20 +22,20 @@
           <button class="navigation__button-menu" type="button"><span class="visually-hidden">Кнопка открытия меню</span></button>
           <ul class="navigation__list nav-list">
             <li class="nav-list__item">
-              <a href="index.html">Главная</a>
+              <a class="nav-list__link" href="index.html">Главная</a>
             </li>
             <li class="nav-list__item nav-list__item--current">
-              <a href="#">Каталог продукции</a>
+              <a class="nav-list__link" href="#">Каталог продукции</a>
             </li>
             <li class="nav-list__item">
-              <a href="form.html">Подбор программы</a>
+              <a class="nav-list__link" href="form.html">Подбор программы</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <main class="catalog-main">
+    <main class="main">
       <h1 class="visually-hidden">Продукция для котов</h1>
       <section class="catalog">
         <div class="catalog__wrapper">
@@ -205,7 +205,7 @@
             <li class="catalog__item catalog-card catalog__item--others">
               <h3 class="catalog-card__title">Показать еще 100500 товаров</h3>
               <p class="catalog-card__description">На самом деле вкусов гораздо больше!</p>
-              <button class="catalog-card__button" type="button">показать все</button>
+              <button class="catalog-card__button--showall" type="button">показать все</button>
             </li>
           </ul>
         </div>
@@ -216,35 +216,43 @@
           <ul class="another-catalog__list">
             <li class="another-catalog__item another-card">
               <h3 class="another-card__title">Сахарозаменитель</h3>
-              <p class="another-card__desc">1 упаковка (100 г)</p>
-              <p class="another-card__price">200 ₽</p>
+              <p class="another-card__content">
+                <span class="another-card__amount">1 упаковка (100 г)</span>
+                <span class="another-card__price">200 ₽</span>
+              </p>
               <button class="another-card__button catalog-button button--action" type="button">заказать</button>
             </li>
             <li class="another-catalog__item another-card">
               <h3 class="another-card__title">питьевая вода</h3>
-              <p class="another-card__desc">5 литров</p>
-              <p class="another-card__price">50 ₽</p>
+              <p class="another-card__content">
+                <span class="another-card__amount">5 литров</span>
+                <span class="another-card__price">50 ₽</span>
+              </p>
               <button class="another-card__button catalog-button button--action" type="button">заказать</button>
             </li>
             <li class="another-catalog__item another-card">
               <h3 class="another-card__title">молоко</h3>
-              <p class="another-card__desc">1 литр</p>
-              <p class="another-card__price">100 ₽</p>
+              <p class="another-card__content">
+                <span class="another-card__amount">1 литр</span>
+                <span class="another-card__price">100 ₽</span>
+              </p>
               <button class="another-card__button catalog-button button--action" type="button">заказать</button>
             </li>
             <li class="another-catalog__item another-card">
               <h3 class="another-card__title">витамины</h3>
-              <p class="another-card__desc">1 упаковка (30 г)</p>
-              <p class="another-card__price">300 ₽</p>
+              <p class="another-card__content">
+                <span class="another-card__amount">1 упаковка (30 г)</span>
+                <span class="another-card__price">300 ₽</span>
+              </p>
               <button class="another-card__button catalog-button button--action" type="button">заказать</button>
             </li>
           </ul>
-          <div class="another-catalog__more-block">
-            <p class="another-catalog__buy-more">Закажите все и получите чехол для кота в подарок!</p>
+          <div class="another-catalog__gift-block">
+            <p class="another-catalog__gift">Закажите все и получите чехол для кота в подарок!</p>
           </div>
         </div>
       </section>
-      <section class="catalog-main__partnership contacts">
+      <section class="main__partnership contacts contacts--catalog">
         <h2 class="visually-hidden">Наши контакты</h2>
         <p class="contacts__invite">приглашаем к сотрудничеству дилеров!</p>
         <address class="contacts__address">
